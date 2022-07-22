@@ -180,7 +180,7 @@ if ( is_user_logged_in() ) {
 			/* translators: %s: Read notification count for the current user */
 				__( 'Read %s', 'buddyboss-theme' ),
 				'<span class="count">' . bp_core_number_format( $count ) . '</span>'
-			);		
+			);
 
 		?>
 		<li id="wp-admin-bar-my-account-notifications" class="menupop parent">
@@ -193,7 +193,7 @@ if ( is_user_logged_in() ) {
 						<a class="ab-item" href="<?php echo esc_url( $notifications_link ); ?>"><?php echo $unread; ?></a>
 					</li>
 					<li id="wp-admin-bar-my-account-notifications-read">
-						<a class="ab-item" href="<?php echo esc_url( trailingslashit( $notifications_link . 'read' ) ); ?>"><?php echo $read; ?></a>
+						<a class="ab-item" href="<?php echo esc_url( trailingslashit( $notifications_link . 'read' ) ); ?>"><?php esc_html_e( 'Read', 'buddyboss-theme' ); ?></a>
 					</li>
 				</ul>
 			</div>

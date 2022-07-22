@@ -204,7 +204,7 @@ if ( is_user_logged_in() ) {
 						<a class="ab-item" href="<?php echo esc_url( $notifications_link ); ?>"><?php echo $unread; ?></a>
 					</li>
 					<li id="wp-admin-bar-my-account-notifications-read">
-						<a class="ab-item" href="<?php echo esc_url( trailingslashit( $notifications_link . 'read' ) ); ?>"><?php esc_html_e( 'Read', 'buddyboss-theme' ); ?></a>
+						<a class="ab-item" href="<?php echo esc_url( trailingslashit( $notifications_link . 'read' ) ); ?>">Lue<?php esc_html_e( 'Read', 'buddyboss-theme' ); ?></a>
 					</li>
 				</ul>
 			</div>
