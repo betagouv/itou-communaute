@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: BuddyBoss Platform\n"
 "Report-Msgid-Bugs-To: https://www.buddyboss.com/contact/\n"
 "POT-Creation-Date: 2022-06-23 05:00:19+00:00\n"
-"PO-Revision-Date: 2022-07-05 11:12+0200\n"
+"PO-Revision-Date: 2022-07-22 16:29+0200\n"
 "Last-Translator: BuddyBoss <support@buddyboss.com>\n"
 "Language-Team: Jean-Pierre Michaud <unpapapro@icloud.com>\n"
 "Language: fr_FR\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.1\n"
+"X-Generator: Poedit 3.1.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: bp-loader.php\n"
@@ -19379,7 +19379,7 @@ msgstr ""
 
 #: bp-friends/classes/class-bp-friends-notification.php:123
 msgid "Your connection request is accepted"
-msgstr "Votre demande de d'ami est acceptée"
+msgstr "Votre demande d'ami est acceptée"
 
 #: bp-friends/classes/class-bp-friends-notification.php:124
 #: bp-friends/classes/class-bp-friends-notification.php:137
@@ -19435,10 +19435,8 @@ msgstr "Les membres %d ont accepté vos demandes de connexion"
 
 #. translators: users display name.
 #: bp-friends/classes/class-bp-friends-notification.php:242
-#, fuzzy
-#| msgid "%d members accepted your connection requests"
 msgid "%s has sent you a connection request"
-msgstr "Les membres %d ont accepté vos demandes de connexion"
+msgstr "%s vous a envoyé une demande d'ami"
 
 #: bp-friends/classes/class-bp-friends-notification.php:309
 #, fuzzy
@@ -21243,10 +21241,8 @@ msgstr ""
 
 #. translators: 1. user name. 2.group name.
 #: bp-groups/classes/class-bp-groups-notification.php:553
-#, fuzzy
-#| msgid "%1$s created the site %2$s"
 msgid "%1$s has requested to join \"%2$s\""
-msgstr "%1$s a créé le site %2$s"
+msgstr "%1$s a demandé à rejoindre \"%2$s\""
 
 #. translators: group name.
 #: bp-groups/classes/class-bp-groups-notification.php:594
@@ -21289,10 +21285,8 @@ msgstr "Vous avez déjà demandé à rejoindre ce groupe."
 
 #. translators: user name
 #: bp-groups/classes/class-bp-groups-notification.php:761
-#, fuzzy
-#| msgid "You have already requested to join this group."
 msgid "%s has requested to join this group"
-msgstr "Vous avez déjà demandé à rejoindre ce groupe."
+msgstr "%s a demandé à rejoindre ce groupe"
 
 #: bp-groups/classes/class-bp-groups-notification.php:780
 #, fuzzy
@@ -26184,10 +26178,8 @@ msgstr "Un membre vous mentionne en utilisant \"@%s\""
 
 #: bp-members/classes/class-bp-members-mentions-notification.php:84
 #: bp-members/classes/class-bp-members-mentions-notification.php:97
-#, fuzzy
-#| msgid "A member sends you a new message"
 msgid "A member is mentioned by another member"
-msgstr "Un pasteur vous a envoyé un message"
+msgstr "Un membre est mentionné par un autre membre"
 
 #. translators: do not remove {} brackets or translate its contents.
 #: bp-members/classes/class-bp-members-mentions-notification.php:92
@@ -27273,17 +27265,14 @@ msgstr "%s vous a envoyé un nouveau message privé"
 #: bp-messages/bp-messages-notifications.php:72
 #: bp-messages/bp-messages-notifications.php:86
 #: bp-messages/bp-messages-notifications.php:93
-#, fuzzy
-#| msgid "%s sent you a new private message from the group: %s"
 msgid "%1$s sent you a new private message from the group: %2$s"
-msgstr "%s vous a envoyé un nouveau message privé du groupe: %s"
+msgstr "%1$s vous a envoyé un nouveau message privé du groupe : %2$s"
 
 #. translators: %1$s and %2$s is replaced with the username and group name
 #: bp-messages/bp-messages-notifications.php:79
-#, fuzzy
-#| msgid "%s sent you a new group message from the group: %s"
 msgid "%1$s sent you a new group message from the group: %2$s"
-msgstr "%s vous a envoyé un nouveau message de groupe depuis le groupe: %s"
+msgstr ""
+"%1$s vous a envoyé un nouveau message de groupe à partir du groupe : %2$s"
 
 #. translators: Number of total private messages
 #: bp-messages/bp-messages-notifications.php:114
@@ -27496,10 +27485,8 @@ msgstr "Vous recevez un nouveau message privé"
 
 #: bp-messages/classes/class-bp-messages-notification.php:80
 #: bp-messages/classes/class-bp-messages-notification.php:93
-#, fuzzy
-#| msgid "A member sends you a new message"
 msgid "A member receives a new private message"
-msgstr "Un pasteur vous a envoyé un message"
+msgstr "Un membre reçoit un nouveau message privé"
 
 #. translators: do not remove {} brackets or translate its contents.
 #: bp-messages/classes/class-bp-messages-notification.php:88
@@ -27540,10 +27527,8 @@ msgstr ""
 "Vous ne recevrez plus de courriels lorsque quelqu'un vous enverra un message."
 
 #: bp-messages/classes/class-bp-messages-notification.php:114
-#, fuzzy
-#| msgid "New Message"
 msgid "New messages"
-msgstr "Nouveau message"
+msgstr "Nouveaux messages"
 
 #. translators: 1. user display name 2. exceprt
 #. translators: 1. user display name 2. except text
@@ -27552,10 +27537,8 @@ msgstr "Nouveau message"
 #: bp-messages/classes/class-bp-messages-notification.php:378
 #: bp-messages/classes/class-bp-messages-notification.php:453
 #: bp-messages/classes/class-bp-messages-notification.php:528
-#, fuzzy
-#| msgid "sent you a new message"
 msgid "%1$s sent you a message: %2$s"
-msgstr "vous a envoyé un nouveau message"
+msgstr "%1$s vous a envoyé un message : %2$s"
 
 #. translators: 1. user display name 2. photos text
 #. translators: 1. user display name 2. photo text
@@ -27862,81 +27845,57 @@ msgstr "%s destinataire(s)"
 
 #: bp-messages/classes/class-bp-rest-group-messages-endpoint.php:153
 #: bp-templates/bp-nouveau/includes/groups/ajax.php:1196
-#, fuzzy
-#| msgid "You do not have access to this content."
 msgid "You don't have access to send the message to this members:  "
-msgstr "Vous n'avez pas accès à ce contenu."
+msgstr "Vous n’avez pas accès l’envoi du message à ces membres :  "
 
 #: bp-messages/classes/class-bp-rest-group-messages-endpoint.php:153
 #: bp-templates/bp-nouveau/includes/groups/ajax.php:1196
-#, fuzzy
-#| msgid "You do not have access to this content."
 msgid "You don't have access to send the message to this member:  "
-msgstr "Vous n'avez pas accès à ce contenu."
+msgstr "Vous n’avez pas accès à l’envoi du message à ce membre :  "
 
 #: bp-messages/classes/class-bp-rest-group-messages-endpoint.php:167
-#, fuzzy
-#| msgid ""
-#| "You need to be connected with this member in order to send a message."
 msgid "You need to be connected with this members in order to send a message: "
 msgstr ""
-"Vous devez être connecté(e) avec ce membre pour lui envoyer un message."
+"Vous devez être ami avec ces membres pour pouvoir envoyer un message : "
 
 #: bp-messages/classes/class-bp-rest-group-messages-endpoint.php:167
-#, fuzzy
-#| msgid ""
-#| "You need to be connected with this member in order to send a message."
 msgid "You need to be connected with this member in order to send a message: "
-msgstr ""
-"Vous devez être connecté(e) avec ce membre pour lui envoyer un message."
+msgstr "Vous devez être ami avec ce membre pour pouvoir envoyer un message : "
 
 #: bp-messages/classes/class-bp-rest-group-messages-endpoint.php:180
 msgid "Sorry, Group id is missing."
 msgstr ""
 
 #: bp-messages/classes/class-bp-rest-group-messages-endpoint.php:190
-#, fuzzy
-#| msgid "Sorry, you are not allowed to create groups."
 msgid "Sorry, you have not selected any members."
-msgstr "Désolé, vous n'êtes pas autorisé à créer des groupes."
+msgstr "Désolé, vous n’avez sélectionné aucun membre."
 
 #: bp-messages/classes/class-bp-rest-group-messages-endpoint.php:210
 #: bp-messages/classes/class-bp-rest-messages-endpoint.php:448
 #: bp-messages/classes/class-bp-rest-messages-endpoint.php:539
-#, fuzzy
-#| msgid "Sorry, no more messages can be loaded."
 msgid "Sorry, Your message cannot be empty."
-msgstr "Désolé(e), aucun autre message ne peut être chargé."
+msgstr "Désolé, votre message ne peut pas être vide."
 
 #. translators: Message member count.
 #: bp-messages/classes/class-bp-rest-group-messages-endpoint.php:812
-#, fuzzy
-#| msgid "Your message was sent privately to all members of this group."
 msgid "Your message was sent privately to %s members of this group."
-msgstr "Votre message a été envoyé en privé à tous les membres de ce groupe."
+msgstr "Votre message a été envoyé en privé aux membres de % de ce groupe."
 
 #: bp-messages/classes/class-bp-rest-group-messages-endpoint.php:816
 msgid "Your message was sent privately to all members of this group."
 msgstr "Votre message a été envoyé en privé à tous les membres de ce groupe."
 
 #: bp-messages/classes/class-bp-rest-group-messages-endpoint.php:852
-#, fuzzy
-#| msgid "Sorry, you are not allowed to create groups."
 msgid "Sorry, you need to be logged in to create a group message."
-msgstr "Désolé, vous n'êtes pas autorisé à créer des groupes."
+msgstr "Désolé, vous devez être connecté pour créer un message de groupe."
 
 #: bp-messages/classes/class-bp-rest-group-messages-endpoint.php:887
-#, fuzzy
-#| msgid "Invitation failed for %s user."
-#| msgid_plural "Invitation failed for %s users."
 msgid "Information for the user."
-msgstr "L'invitation a échoué pour l'usager %s."
+msgstr "Informations pour l’utilisateur."
 
 #: bp-messages/classes/class-bp-rest-group-messages-endpoint.php:892
-#, fuzzy
-#| msgid "Message deleted."
 msgid "Message thread"
-msgstr "Message supprimé."
+msgstr "Fil de message"
 
 #: bp-messages/classes/class-bp-rest-group-messages-endpoint.php:932
 #: bp-messages/classes/class-bp-rest-messages-endpoint.php:1983
@@ -27958,10 +27917,8 @@ msgstr ""
 
 #. translators: Message member count.
 #: bp-messages/classes/class-bp-rest-group-messages-endpoint.php:1057
-#, fuzzy
-#| msgid "Your message was sent to all members of this group."
 msgid "Your message was sent to %s members of this group."
-msgstr "Votre message a été envoyé à tous les membres de ce groupe."
+msgstr "Votre message a été envoyé aux membres de % de ce groupe."
 
 #: bp-messages/classes/class-bp-rest-group-messages-endpoint.php:1061
 #: bp-templates/bp-nouveau/includes/groups/ajax.php:1776
@@ -27978,10 +27935,8 @@ msgid "Action name to perform on the message thread."
 msgstr ""
 
 #: bp-messages/classes/class-bp-rest-messages-actions-endpoint.php:67
-#, fuzzy
-#| msgid "Star the first message in this thread"
 msgid "Value for the action on message thread."
-msgstr "Suivre le premier message de cette discussion"
+msgstr "Valeur pour l’action sur le fil de message."
 
 #: bp-messages/classes/class-bp-rest-messages-actions-endpoint.php:159
 #, fuzzy
@@ -29491,10 +29446,8 @@ msgid "Field type name."
 msgstr "Type de profil sauvegardé."
 
 #: bp-moderation/classes/class-bp-rest-moderation-report-endpoint.php:652
-#, fuzzy
-#| msgid "Number field"
 msgid "Name of the field."
-msgstr "Numéro champ"
+msgstr "Nom du champ."
 
 #: bp-moderation/classes/class-bp-rest-moderation-report-endpoint.php:658
 #: bp-settings/classes/class-bp-rest-account-settings-options-endpoint.php:447
@@ -30893,19 +30846,13 @@ msgstr "Cacher la conversation"
 
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/parts/bp-messages-single-header.php:75
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/parts/bp-messages-single-header.php:117
-#, fuzzy
-#| msgid "%s member"
-#| msgid_plural "%s members"
 msgid "Block a member"
-msgstr "membre %s"
+msgstr "Bloquer un membre"
 
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/parts/bp-messages-single-header.php:83
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/parts/bp-messages-single-header.php:125
-#, fuzzy
-#| msgid "%s member"
-#| msgid_plural "%s members"
 msgid "Block member"
-msgstr "membre %s"
+msgstr "Bloquer le membre"
 
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/parts/bp-messages-single-header.php:88
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/parts/bp-messages-single-header.php:130
@@ -30918,10 +30865,8 @@ msgid "Delete conversation"
 msgstr "Supprimer la conversation"
 
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/parts/bp-messages-single-header.php:154
-#, fuzzy
-#| msgid "Total Members"
 msgid "Block a Member?"
-msgstr "Total des Membres"
+msgstr "Bloquer un membre ?"
 
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/parts/bp-messages-single-load-more.php:13
 msgid "Load previous messages"
@@ -31044,10 +30989,8 @@ msgstr "Veuillez ajouter des champs aux recherches de membres."
 #: bp-templates/bp-nouveau/buddypress/document/activity-document-actions.php:33
 #: bp-templates/bp-nouveau/includes/messages/ajax.php:724
 #: bp-templates/bp-nouveau/includes/messages/ajax.php:2530
-#, fuzzy
-#| msgid "Collapse All"
 msgid "Collapse"
-msgstr "Tout réduire"
+msgstr "Réduire"
 
 #: bp-templates/bp-nouveau/buddypress/document/activity-document-actions.php:38
 #: bp-templates/bp-nouveau/buddypress/media/activity-entry.php:53
@@ -31057,19 +31000,15 @@ msgstr "Tout réduire"
 #: bp-templates/bp-nouveau/buddypress/video/entry.php:45
 #: bp-templates/bp-nouveau/includes/messages/ajax.php:726
 #: bp-templates/bp-nouveau/includes/messages/ajax.php:2532
-#, fuzzy
-#| msgid "Mentions"
 msgid "More actions"
-msgstr "Mentions"
+msgstr "Plus d'actions"
 
 #: bp-templates/bp-nouveau/buddypress/document/activity-document-actions.php:47
 #: bp-templates/bp-nouveau/buddypress/document/document-entry.php:255
 #: bp-templates/bp-nouveau/includes/messages/ajax.php:725
 #: bp-templates/bp-nouveau/includes/messages/ajax.php:2531
-#, fuzzy
-#| msgid "Download PDF"
 msgid "Copy Download Link"
-msgstr "Télécharger le PDF"
+msgstr "Copier le lien de téléchargement"
 
 #: bp-templates/bp-nouveau/buddypress/document/activity-document-actions.php:55
 #: bp-templates/bp-nouveau/buddypress/document/document-entry.php:303
@@ -31083,16 +31022,12 @@ msgstr ""
 #: bp-templates/bp-nouveau/buddypress/document/create-folder.php:20
 #: bp-templates/bp-nouveau/buddypress/document/create-folder.php:34
 #: bp-templates/bp-nouveau/buddypress/document/document-uploader.php:79
-#, fuzzy
-#| msgid "Create New Forum"
 msgid "Create new folder"
-msgstr "Créer un nouveau forum"
+msgstr "Créer un nouveau dossier"
 
 #: bp-templates/bp-nouveau/buddypress/document/activity-entry.php:39
-#, fuzzy
-#| msgid "Preview"
 msgid " view"
-msgstr "Aperçu"
+msgstr " voir"
 
 #: bp-templates/bp-nouveau/buddypress/document/activity-entry.php:94
 msgid "Click to"
@@ -31103,29 +31038,23 @@ msgstr ""
 #: bp-templates/bp-nouveau/buddypress/document/index.php:53
 #: bp-templates/bp-nouveau/buddypress/document/single-folder.php:59
 #: bp-templates/bp-nouveau/buddypress/document/single-folder.php:69
-#, fuzzy
-#| msgid "Upload failed."
 msgid "Upload Files"
-msgstr "Échec du téléversement."
+msgstr "Télécharger des fichiers"
 
 #: bp-templates/bp-nouveau/buddypress/document/add-folder.php:19
 #: bp-templates/bp-nouveau/buddypress/document/index.php:54
 #: bp-templates/bp-nouveau/buddypress/document/single-folder.php:62
 #: bp-templates/bp-nouveau/buddypress/document/single-folder.php:72
 #: bp-templates/bp-nouveau/includes/document/functions.php:107
-#, fuzzy
-#| msgid "Created"
 msgid "Create Folder"
-msgstr "Créé"
+msgstr "Créer un dossier"
 
 #: bp-templates/bp-nouveau/buddypress/document/create-child-folder.php:33
 #: bp-templates/bp-nouveau/buddypress/document/create-folder.php:25
 #: bp-templates/bp-nouveau/buddypress/document/document-create-folder.php:18
 #: bp-templates/bp-nouveau/buddypress/document/edit-child-folder.php:32
-#, fuzzy
-#| msgid "Enter Album Title"
 msgid "Enter Folder Title"
-msgstr "Entrer le titre de l'album"
+msgstr "Entrez le titre du dossier"
 
 #: bp-templates/bp-nouveau/buddypress/document/create-child-folder.php:34
 #: bp-templates/bp-nouveau/buddypress/document/create-folder.php:26
@@ -31135,18 +31064,14 @@ msgid "Following special characters are not supported: \\ / ? % * : | \" < >"
 msgstr ""
 
 #: bp-templates/bp-nouveau/buddypress/document/document-create-folder.php:17
-#, fuzzy
-#| msgid "Forum Title"
 msgid "Folder Title"
-msgstr "Titre du forum"
+msgstr "Titre du Dossier."
 
 #: bp-templates/bp-nouveau/buddypress/document/document-create-folder.php:28
 #: bp-templates/bp-nouveau/buddypress/media/media-create-album.php:27
 #: bp-templates/bp-nouveau/buddypress/video/video-create-album.php:28
-#, fuzzy
-#| msgid "Created"
 msgid "Create"
-msgstr "Créé"
+msgstr "Créer"
 
 #: bp-templates/bp-nouveau/buddypress/document/document-entry.php:139
 msgid ""
@@ -31294,10 +31219,8 @@ msgstr "Menu de création de groupe"
 #: bp-templates/bp-nouveau/buddypress/groups/groups-loop.php:158
 #: bp-templates/bp-nouveau/buddypress/groups/single/cover-image-header.php:220
 #: bp-templates/bp-nouveau/buddypress/groups/single/group-header.php:147
-#, fuzzy
-#| msgid "Are you sure you want to do this?"
 msgid "Are you sure you want to leave "
-msgstr "Voulez-vous vraiment faire cela ?"
+msgstr "Voulez-vous vraiment quitter "
 
 #: bp-templates/bp-nouveau/buddypress/groups/single/activity.php:16
 msgid "Group Feed"
@@ -31434,12 +31357,6 @@ msgstr ""
 "interdire."
 
 #: bp-templates/bp-nouveau/buddypress/groups/single/admin/manage-members.php:30
-#, fuzzy
-#| msgid ""
-#| "%s have total control over the contents and settings of a group. That "
-#| "includes all the abilities of %s, as well as the ability to turn group "
-#| "forums on or off, change group status from public to private, change the "
-#| "group photo,  manage group %s, and delete the group."
 msgid ""
 "%1$s have total control over the contents and settings of a group. That "
 "includes all the abilities of %2$s, as well as the ability to turn group "
@@ -31458,11 +31375,6 @@ msgid "Demote to regular %s"
 msgstr "Rétrograder %s à un statut ordinaire"
 
 #: bp-templates/bp-nouveau/buddypress/groups/single/admin/manage-members.php:76
-#, fuzzy
-#| msgid ""
-#| "When a group member is promoted to be a %s of the group, the member gains "
-#| "the ability to edit and delete any forum discussion within the group and "
-#| "delete any activity feed items, excluding those posted by %s."
 msgid ""
 "When a group member is promoted to be a %1$s of the group, the member gains "
 "the ability to edit and delete any forum discussion within the group and "
@@ -31479,11 +31391,6 @@ msgid "Promote to co-%s"
 msgstr "Promouvoir à co-%s"
 
 #: bp-templates/bp-nouveau/buddypress/groups/single/admin/manage-members.php:122
-#, fuzzy
-#| msgid ""
-#| "When a member joins a group, he or she is assigned the %s role by "
-#| "default. %s are able to contribute to the group’s discussions, activity "
-#| "feeds, and view other group members."
 msgid ""
 "When a member joins a group, he or she is assigned the %1$s role by default. "
 "%2$s are able to contribute to the group’s discussions, activity feeds, and "
@@ -31556,52 +31463,40 @@ msgid "All Group Members"
 msgstr "Tous les membres du groupe"
 
 #: bp-templates/bp-nouveau/buddypress/groups/single/messages/private-message.php:40
-#, fuzzy
-#| msgid "%s member"
-#| msgid_plural "%s members"
 msgid "%s Member"
 msgid_plural "%s Members"
-msgstr[0] "membre %s"
+msgstr[0] "%s Membre"
 msgstr[1] "%s membres"
 
 #: bp-templates/bp-nouveau/buddypress/groups/single/messages/private-message.php:49
-#, fuzzy
-#| msgid "Your message was sent privately to all members of this group."
 msgid ""
 "You don't have access to send a private message to any member of this group."
-msgstr "Votre message a été envoyé en privé à tous les membres de ce groupe."
+msgstr ""
+"Vous n’avez pas accès à l’envoi d’un message privé a un membre de ce groupe."
 
 #: bp-templates/bp-nouveau/buddypress/groups/single/messages/private-message.php:62
-#, fuzzy
-#| msgid "Sorry, you are not allowed to create groups."
 msgid "You are not allowed to Create New Thread with all group members."
-msgstr "Désolé, vous n'êtes pas autorisé à créer des groupes."
+msgstr ""
+"Vous n’êtes pas autorisé à créer un nouveau thread avec tous les membres du "
+"groupe."
 
 #: bp-templates/bp-nouveau/buddypress/groups/single/messages/private-message.php:116
 #: bp-templates/bp-nouveau/buddypress/groups/single/messages/private-message.php:117
-#, fuzzy
-#| msgid "New private messages"
 msgid "New Private Message"
-msgstr "Nouveau messages privés"
+msgstr "Nouveau message privé"
 
 #: bp-templates/bp-nouveau/buddypress/groups/single/messages/private-message.php:128
 #: bp-templates/bp-nouveau/buddypress/groups/single/messages/public-message.php:44
-#, fuzzy
-#| msgid "Send"
 msgid "Send to"
-msgstr "Envoyer"
+msgstr "Envoyer à"
 
 #: bp-templates/bp-nouveau/buddypress/groups/single/messages/private-message.php:320
-#, fuzzy
-#| msgid "Send Invite"
 msgid "Send Individually"
-msgstr "Envoyez une invitation"
+msgstr "Envoyer individuellement"
 
 #: bp-templates/bp-nouveau/buddypress/groups/single/messages/private-message.php:321
-#, fuzzy
-#| msgid "Create New Forum"
 msgid "Create New Thread"
-msgstr "Créer un nouveau forum"
+msgstr "Créer un nouveau fil"
 
 #: bp-templates/bp-nouveau/buddypress/groups/single/messages/public-message.php:31
 #: bp-templates/bp-nouveau/buddypress/groups/single/messages/public-message.php:32
@@ -31628,23 +31523,16 @@ msgid "Group menu"
 msgstr "Menu du projet"
 
 #: bp-templates/bp-nouveau/buddypress/groups/single/parts/messages-subnav.php:12
-#, fuzzy
-#| msgid "Group Messages"
 msgid "Group Messages menu"
-msgstr "Messages de Groupe"
+msgstr "Menu messages de groupe"
 
 #: bp-templates/bp-nouveau/buddypress/groups/single/request-membership.php:25
-#, fuzzy
-#| msgid "You have already requested to join this group."
 msgid "You are already invited to this group by %1$s %2$s. %3$s"
-msgstr "Vous avez déjà demandé à rejoindre ce groupe."
+msgstr "Vous avez déjà été invité à rejoindre ce groupe par : %1$s %2$s. %3$s"
 
 #: bp-templates/bp-nouveau/buddypress/groups/single/request-membership.php:38
-#, fuzzy
-#| msgid "Viewing 1 invitation"
-#| msgid_plural "Viewing %1$s - %2$s of %3$s invitations"
 msgid "View Invitation"
-msgstr "Aperçu 1 invitation"
+msgstr "Voir l'invitation"
 
 #: bp-templates/bp-nouveau/buddypress/groups/single/request-membership.php:49
 msgid "You are requesting to become a member of the group \"%s\"."
