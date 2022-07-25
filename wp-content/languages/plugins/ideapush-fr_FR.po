@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: IdeaPush - Feature Request Manager\n"
 "POT-Creation-Date: 2021-10-27 12:38+1100\n"
-"PO-Revision-Date: 2022-06-30 16:22+0200\n"
+"PO-Revision-Date: 2022-07-25 17:01+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.1\n"
+"X-Generator: Poedit 3.1.1\n"
 "X-Poedit-Basepath: ../..\n"
 "X-Poedit-WPHeader: ideapush.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -78,15 +78,15 @@ msgstr "Non trouvé dans la corbeille"
 
 #: ideapush.php:62
 msgid "ideas"
-msgstr ""
+msgstr "idées"
 
 #: ideapush.php:63
 msgid "IdeaPush ideas"
-msgstr ""
+msgstr "Idées d’IdeaPush"
 
 #: ideapush.php:210 ideapush.php:488
 msgid "Settings"
-msgstr ""
+msgstr "Réglages"
 
 #: ideapush.php:231
 msgctxt "taxonomy general name"
@@ -100,7 +100,7 @@ msgstr ""
 
 #: ideapush.php:233
 msgid "Search Boards"
-msgstr ""
+msgstr "Rechercher dans les tableaux"
 
 #: ideapush.php:234
 msgid "Popular Boards"
@@ -108,23 +108,23 @@ msgstr "Tableaux populaires"
 
 #: ideapush.php:235
 msgid "All Boards"
-msgstr ""
+msgstr "Toutes les tableaux"
 
 #: ideapush.php:238
 msgid "Edit Board"
-msgstr ""
+msgstr "Modifier le tableau"
 
 #: ideapush.php:239
 msgid "Update Board"
-msgstr ""
+msgstr "Mettre à jour le tableau"
 
 #: ideapush.php:240
 msgid "Add New Board"
-msgstr ""
+msgstr "Ajouter un nouveau tableau"
 
 #: ideapush.php:241
 msgid "New Board Name"
-msgstr ""
+msgstr "Nom du nouveau tableau"
 
 #: ideapush.php:242
 msgid "Separate boards with commas"
@@ -154,27 +154,27 @@ msgstr ""
 
 #: ideapush.php:282
 msgid "Search tags"
-msgstr ""
+msgstr "Recherche étiquettes"
 
 #: ideapush.php:283
 msgid "Popular Tags"
-msgstr ""
+msgstr "Etiquettes populaires"
 
 #: ideapush.php:284
 msgid "All Tags"
-msgstr ""
+msgstr "Tous les mots-clés"
 
 #: ideapush.php:287
 msgid "Edit Tag"
-msgstr ""
+msgstr "Editer le mot-clé"
 
 #: ideapush.php:288
 msgid "Update Tag"
-msgstr ""
+msgstr "Mettre à jour le mot-clé"
 
 #: ideapush.php:289
 msgid "Add New Tag"
-msgstr ""
+msgstr "Ajouter un nouveau mot-clé"
 
 #: ideapush.php:290
 msgid "New Tag Name"
@@ -208,19 +208,19 @@ msgstr ""
 
 #: ideapush.php:331
 msgid "Search Statuses"
-msgstr ""
+msgstr "Rechercher un état"
 
 #: ideapush.php:332
 msgid "Popular Statuses"
-msgstr ""
+msgstr "Status populaires"
 
 #: ideapush.php:333
 msgid "All Statuses"
-msgstr ""
+msgstr "Tous les statuts"
 
 #: ideapush.php:336
 msgid "Edit Status"
-msgstr ""
+msgstr "Modifier l’état"
 
 #: ideapush.php:337
 msgid "Update Status"
@@ -298,16 +298,18 @@ msgstr "Email"
 
 #: inc/functions/single-idea.php:53 inc/shortcode/ideaboard-shortcode.php:342
 msgid "Confirm email"
-msgstr ""
+msgstr "Confirmez l'email"
 
 #: inc/functions/single-idea.php:53 inc/shortcode/create-idea-form.php:226
 #: inc/shortcode/ideaboard-shortcode.php:342
 msgid "Password"
-msgstr ""
+msgstr "Mot de passe"
 
 #: inc/functions/single-idea.php:56 inc/shortcode/create-idea-form.php:387
 msgid "Please ensure all fields are completed and a valid email is entered."
 msgstr ""
+"Veuillez vous assurer que tous les champs sont remplis, et qu’une adresse de "
+"courriel valide est entrée."
 
 #: inc/functions/single-idea.php:59 inc/shortcode/ideaboard-shortcode.php:324
 #: inc/templates/ip-tag.php:286
@@ -317,6 +319,8 @@ msgstr "Êtes-vous sûr de vouloir supprimer cette suggestion ?"
 #: inc/functions/single-idea.php:62
 msgid "The idea has been added to the trash but not permanently deleted."
 msgstr ""
+"L'idée a été ajoutée à la corbeille mais n'a pas été définitivement "
+"supprimée."
 
 #: inc/functions/single-idea.php:65 inc/shortcode/ideaboard-shortcode.php:318
 msgid ""
@@ -377,23 +381,25 @@ msgstr "Désolé que vous n'ayez pas la permission de voir cette idée."
 
 #: inc/functions/single-idea.php:278
 msgid "Admin Functions"
-msgstr ""
+msgstr "Fonctions d'Admin"
 
 #: inc/functions/single-idea.php:280
 msgid "These quick admin functions are only available to admin users."
 msgstr ""
+"Ces fonctions d'administration rapide ne sont disponibles que pour les "
+"utilisateurs de l'administration."
 
 #: inc/functions/single-idea.php:285
 msgid "Change status:"
-msgstr ""
+msgstr "Changer de statut :"
 
 #: inc/functions/single-idea.php:290 inc/shortcode/create-idea-form.php:141
 msgid "Edit"
-msgstr ""
+msgstr "Modifier"
 
 #: inc/functions/single-idea.php:294
 msgid "Delete"
-msgstr ""
+msgstr "Supprimer"
 
 #: inc/functions/user-profile-meta.php:9
 msgid "IdeaPush Profile Image"
@@ -401,15 +407,15 @@ msgstr ""
 
 #: inc/functions/user-profile-meta.php:13
 msgid "Upload an Image"
-msgstr ""
+msgstr "Charger une image"
 
 #: inc/functions/user-profile-meta.php:36
 msgid "Votes Remaining"
-msgstr ""
+msgstr "Votes restants"
 
 #: inc/options/options-board-render.php:89
 msgid "Board Name"
-msgstr ""
+msgstr "Nom du tableau"
 
 #: inc/options/options-board-render.php:91
 msgid ""
@@ -1693,11 +1699,11 @@ msgstr ""
 
 #: inc/pro-ip/comments-widget.php:12
 msgid "Latest Comments"
-msgstr ""
+msgstr "Derniers commentaires"
 
 #: inc/pro-ip/comments-widget.php:50
 msgid "on"
-msgstr ""
+msgstr "le"
 
 #: inc/pro-ip/comments.php:67
 #, php-format
@@ -1723,13 +1729,13 @@ msgstr ""
 
 #: inc/pro-ip/custom-widgets.php:31
 msgid "Shows recent ideas in a simple display"
-msgstr ""
+msgstr "Affiche les idées récentes dans un simple affichage"
 
 #: inc/pro-ip/custom-widgets.php:66 inc/pro-ip/custom-widgets.php:220
 #: inc/pro-ip/custom-widgets.php:328 inc/pro-ip/custom-widgets.php:507
 #: inc/pro-ip/custom-widgets.php:675
 msgid "New title"
-msgstr ""
+msgstr "Nouveau titre"
 
 #: inc/pro-ip/custom-widgets.php:87 inc/pro-ip/custom-widgets.php:227
 #: inc/pro-ip/custom-widgets.php:335 inc/pro-ip/custom-widgets.php:521
@@ -1804,7 +1810,7 @@ msgstr ""
 
 #: inc/pro-ip/idea-push-pro.php:441
 msgid "Related Ideas"
-msgstr "Autres suggestions"
+msgstr "Idées similaires"
 
 #: inc/pro-ip/idea-push-pro.php:480 inc/pro-ip/recent-ideas.php:79
 #: inc/shortcode/idea-list-items.php:716
@@ -1816,47 +1822,47 @@ msgstr "il y a"
 #: inc/shortcode/idea-list-items.php:450 inc/templates/ip-tag.php:164
 #: inc/templates/ip-tag.php:172
 msgid "Read more"
-msgstr ""
+msgstr "Lire la suite"
 
 #: inc/pro-ip/idea-push-pro.php:942
 msgid "Add Custom Field Value"
-msgstr ""
+msgstr "Ajouter une valeur de champ personnalisé"
 
 #: inc/pro-ip/idea-push-pro.php:948
 msgid "Custom Field Name"
-msgstr ""
+msgstr "Nom du champ personnalisé"
 
 #: inc/pro-ip/idea-push-pro.php:949
 msgid "Custom Field Value"
-msgstr ""
+msgstr "Valeur du champ personnalisé"
 
 #: inc/pro-ip/idea-push-pro.php:950
 msgid "Update Field Value"
-msgstr ""
+msgstr "Mise à jour de la valeur du champ"
 
 #: inc/pro-ip/idea-push-pro.php:971 inc/shortcode/create-idea-form.php:182
 msgid "Update"
-msgstr ""
+msgstr "Mettre à jour"
 
 #: inc/pro-ip/idea-push-pro.php:989
 msgid "To: "
-msgstr ""
+msgstr "À: "
 
 #: inc/pro-ip/idea-push-pro.php:991
 msgid "Positive Voters"
-msgstr ""
+msgstr "Votes positifs"
 
 #: inc/pro-ip/idea-push-pro.php:992
 msgid "Idea Author"
-msgstr ""
+msgstr "Auteur de l'idée"
 
 #: inc/pro-ip/idea-push-pro.php:1022
 msgid "Email message"
-msgstr ""
+msgstr "Message de l'email"
 
 #: inc/pro-ip/idea-push-pro.php:1033
 msgid "Add an internal note to the idea history timeline"
-msgstr ""
+msgstr "Ajouter une note interne à la chronologie des idées"
 
 #: inc/pro-ip/idea-push-pro.php:1103
 msgid "Idea Created"
@@ -2016,15 +2022,15 @@ msgstr ""
 
 #: inc/pro-ip/idea-push-pro.php:3247
 msgid "Required"
-msgstr ""
+msgstr "Requis"
 
 #: inc/pro-ip/idea-push-pro.php:3273
 msgid "Used as Filter"
-msgstr ""
+msgstr "Utilisé comme filtre"
 
 #: inc/pro-ip/idea-push-pro.php:3641
 msgid "Has your idea already been submitted?"
-msgstr ""
+msgstr "Votre idée a-t-elle déjà été soumise ?"
 
 #: inc/pro-ip/idea-push-pro.php:3659
 msgid "Delete Idea"
@@ -2036,19 +2042,19 @@ msgstr "Marquer comme doublon"
 
 #: inc/pro-ip/leader-board.php:12
 msgid "Leaderboard"
-msgstr ""
+msgstr "Tableau de classement"
 
 #: inc/pro-ip/leader-board.php:17
 msgid "Most Votes"
-msgstr ""
+msgstr "Le plus de votes"
 
 #: inc/pro-ip/leader-board.php:18
 msgid "Top Ideas"
-msgstr ""
+msgstr "Les meilleures idées"
 
 #: inc/pro-ip/leader-board.php:19
 msgid "Most Ideas"
-msgstr ""
+msgstr "La plupart des idées"
 
 #: inc/pro-ip/plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:395
 msgid "Check for updates"
@@ -2056,12 +2062,12 @@ msgstr ""
 
 #: inc/pro-ip/plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:432
 msgid "View details"
-msgstr ""
+msgstr "Voir les détails"
 
 #: inc/pro-ip/plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:455
 #, php-format
 msgid "More information about %s"
-msgstr ""
+msgstr "Plus d’informations sur %s"
 
 #: inc/pro-ip/plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:548
 #, php-format
@@ -2093,27 +2099,27 @@ msgstr ""
 #: inc/pro-ip/recent-ideas.php:95 inc/shortcode/idea-list-items.php:452
 #: inc/templates/ip-tag.php:174
 msgid "Read less"
-msgstr ""
+msgstr "Lire moins"
 
 #: inc/shortcode/create-idea-form.php:153
 msgid "Logout"
-msgstr ""
+msgstr "Déconnexion"
 
 #: inc/shortcode/create-idea-form.php:179
 msgid "Update image"
-msgstr ""
+msgstr "Mettre à jour l’image"
 
 #: inc/shortcode/create-idea-form.php:214
 msgid "Login"
-msgstr ""
+msgstr "Connexion"
 
 #: inc/shortcode/create-idea-form.php:275
 msgid "You can't enter custom tags"
-msgstr ""
+msgstr "Vous ne pouvez pas saisir de mots clés personnalisées"
 
 #: inc/shortcode/create-idea-form.php:275
 msgid "Enter a unique value"
-msgstr ""
+msgstr "Entrez une valeur unique"
 
 #: inc/shortcode/create-idea-form.php:351
 msgid "Hold on"
@@ -2121,7 +2127,7 @@ msgstr "Chargement"
 
 #: inc/shortcode/create-idea-form.php:360
 msgid "Idea submitted successfully"
-msgstr ""
+msgstr "Idée soumise avec succès"
 
 #: inc/shortcode/create-idea-form.php:363
 msgid "Your idea has been submitted and will be reviewed soon"
@@ -2131,20 +2137,25 @@ msgstr "Votre suggestion a bien été déposée et sera examinée dès que possi
 msgid ""
 "Please make sure the reCAPTCHA is validated and all fields are completed"
 msgstr ""
+"Veuillez vous assurer que le reCAPTCHA est validé et que tous les champs "
+"sont remplis"
 
 #: inc/shortcode/create-idea-form.php:369
 msgid "You did not enter in a correct math value"
-msgstr ""
+msgstr "Vous n'avez pas saisi une valeur mathématique correcte"
 
 #: inc/shortcode/create-idea-form.php:372
 msgid ""
 "It looks like you could be a robot, or alternatively please turn off any "
 "form autofill you have setup"
 msgstr ""
+"Il semble que vous pourriez bien être un robot, ou alors veuillez désactiver "
+"l'option de remplissage automatique des formulaires que vous avez mis en "
+"place"
 
 #: inc/shortcode/create-idea-form.php:375
 msgid "Please accept our privacy statement"
-msgstr ""
+msgstr "Veuillez accepter notre déclaration de confidentialité"
 
 #: inc/shortcode/create-idea-form.php:378
 msgid "Please make sure all fields are completed"
@@ -2153,33 +2164,44 @@ msgstr "Un ou plusieurs champs comportent des erreurs"
 #: inc/shortcode/create-idea-form.php:381
 msgid "There was an issue with the file you uploaded, please try again"
 msgstr ""
+"Il y a eu un problème avec le fichier que vous avez téléchargé, Veuillez, "
+"s’il vous plaît, essayer à nouveau"
 
 #: inc/shortcode/create-idea-form.php:384
 msgid ""
 "You must first register your name and email address before you can vote. "
 "Please enter your information below and then try voting again."
 msgstr ""
+"Vous devez d’abord inscrire votre nom et votre adresse e-mail avant de "
+"pouvoir voter. Veuillez entrer vos informations ci-dessous, puis réessayez "
+"de voter."
 
 #: inc/shortcode/create-idea-form.php:390
 msgid ""
 "An account already exists with this email, please login to associate the "
 "idea with your existing account."
 msgstr ""
+"Un compte existe déjà avec cet e-mail, veuillez vous connecter pour associer "
+"l'idée à votre compte existant."
 
 #: inc/shortcode/create-idea-form.php:393
 msgid ""
 "Please ensure a first and last is completed and your email is a valid email."
 msgstr ""
+"Veuillez vous assurer qu'un premier et un dernier sont remplis et que votre "
+"adresse électronique est valide."
 
 #: inc/shortcode/create-idea-form.php:396
 msgid ""
 "You have no votes votes left. Please wait until one of your ideas meets the "
 "threshold score or remove one of your existing votes."
 msgstr ""
+"Vous n’avez plus de votes. Veuillez attendre que l’une de vos idées atteigne "
+"le seuil, ou supprimez l’un de vos votes existants."
 
 #: inc/shortcode/create-idea-form.php:399
 msgid "Please enter a comment."
-msgstr ""
+msgstr "Veuillez inscrire un commentaire."
 
 #: inc/shortcode/idea-list-items.php:263
 msgid "No ideas found matching this criteria"
@@ -2191,7 +2213,7 @@ msgstr "Pièce jointe"
 
 #: inc/shortcode/idea-list-items.php:582
 msgid "File"
-msgstr ""
+msgstr "Fichier"
 
 #: inc/shortcode/idea-table-header.php:42
 msgid "Sort Options"
@@ -2240,11 +2262,11 @@ msgstr "Rechercher"
 #: inc/shortcode/ideaboard-shortcode.php:181
 #, php-format
 msgid "Get your idea to %d to be reviewed"
-msgstr ""
+msgstr "Faites en sorte que votre idée %d soit examinée"
 
 #: inc/shortcode/ideaboard-shortcode.php:270
 msgid "Submit new idea"
-msgstr ""
+msgstr "Soumettre une nouvelle idée"
 
 #: inc/shortcode/ideaboard-shortcode.php:321
 msgid ""
@@ -2254,7 +2276,7 @@ msgstr ""
 
 #: inc/shortcode/ideaboard-shortcode.php:327 inc/templates/ip-tag.php:289
 msgid "The idea has been deleted."
-msgstr ""
+msgstr "L'idée a été supprimée."
 
 #: inc/shortcode/ideaboard-shortcode.php:345
 msgid "Enter original idea title here"
@@ -2262,11 +2284,12 @@ msgstr "Entrer le titre initial de la suggestion"
 
 #: inc/shortcode/ideaboard-shortcode.php:356
 msgid "Sorry you do not have permission to view this board."
-msgstr ""
+msgstr "Désolé, vous n'avez pas la permission de voir ce tableau."
 
 #: inc/shortcode/ideaboard-shortcode.php:362
 msgid "The board number does not exist. Please create a board by going to: "
 msgstr ""
+"Le numéro du tableau n'existe pas. Veuillez créer un tableau en allant à "
 
 #: inc/shortcode/ideaboard-shortcode.php:362
 msgid "IdeaPush > Settings > Boards"
